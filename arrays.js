@@ -7,7 +7,7 @@ function destructivelyAddElementToBeginningOfArray(array, object) {
   return array.unshift(object)
 }
 function addElementToEndOfArray(array, object) {
-  return array.concat(...array , object)
+  return array.concat(...array, object)
 }
 function destructivelyAddElementToEndOfArray(array, object) {
   return array.push(object)
